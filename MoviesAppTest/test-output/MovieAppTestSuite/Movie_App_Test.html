@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>TestNG:  Movie_App_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Movie_App_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 18 17:50:05 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>68 seconds (68741 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.actualPages.LoginPageTest.testLoginWithEmptyUsername()'><b>testLoginWithEmptyUsername</b><br>Test class: org.actualPages.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>org.actualPages.LoginPageTest@cb0755b</td></tr>
+<tr>
+<td title='org.actualPages.MovieDetailsPageTest.testHomePageOneMovie()'><b>testHomePageOneMovie</b><br>Test class: org.actualPages.MovieDetailsPageTest</td>
+<td></td>
+<td>1</td>
+<td>org.actualPages.MovieDetailsPageTest@247310d0</td></tr>
+<tr>
+<td title='org.actualPages.LoginPageTest.testLoginWithValidCred()'><b>testLoginWithValidCred</b><br>Test class: org.actualPages.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>org.actualPages.LoginPageTest@cb0755b</td></tr>
+<tr>
+<td title='org.actualPages.LoginPageTest.testLoginPageUI()'><b>testLoginPageUI</b><br>Test class: org.actualPages.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>org.actualPages.LoginPageTest@cb0755b</td></tr>
+<tr>
+<td title='org.actualPages.SearchPageTest.searchFunctionalityTest2()'><b>searchFunctionalityTest2</b><br>Test class: org.actualPages.SearchPageTest</td>
+<td></td>
+<td>1</td>
+<td>org.actualPages.SearchPageTest@7c37508a</td></tr>
+<tr>
+<td title='org.actualPages.LoginPageTest.testLoginWithInvalidCred()'><b>testLoginWithInvalidCred</b><br>Test class: org.actualPages.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>org.actualPages.LoginPageTest@cb0755b</td></tr>
+<tr>
+<td title='org.actualPages.HomePageTest.testPlayButtonIsDisplayed()'><b>testPlayButtonIsDisplayed</b><br>Test class: org.actualPages.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>org.actualPages.HomePageTest@59402b8f</td></tr>
+<tr>
+<td title='org.actualPages.HeaderSectionTest.testHeaderSectionFunctionalities()'><b>testHeaderSectionFunctionalities</b><br>Test class: org.actualPages.HeaderSectionTest</td>
+<td></td>
+<td>1</td>
+<td>org.actualPages.HeaderSectionTest@7188af83</td></tr>
+<tr>
+<td title='org.actualPages.SearchPageTest.searchFunctionalityTest1()'><b>searchFunctionalityTest1</b><br>Test class: org.actualPages.SearchPageTest</td>
+<td></td>
+<td>1</td>
+<td>org.actualPages.SearchPageTest@7c37508a</td></tr>
+<tr>
+<td title='org.actualPages.HomePageTest.testContactUsSection()'><b>testContactUsSection</b><br>Test class: org.actualPages.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>org.actualPages.HomePageTest@59402b8f</td></tr>
+<tr>
+<td title='org.actualPages.LoginPageTest.testLoginWithEmptyPassword()'><b>testLoginWithEmptyPassword</b><br>Test class: org.actualPages.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>org.actualPages.LoginPageTest@cb0755b</td></tr>
+<tr>
+<td title='org.actualPages.AccountPageTest.testLogoutFunctionality()'><b>testLogoutFunctionality</b><br>Test class: org.actualPages.AccountPageTest</td>
+<td></td>
+<td>0</td>
+<td>org.actualPages.AccountPageTest@1033576a</td></tr>
+<tr>
+<td title='org.actualPages.PopularPageTest.testMoviesDisplayed()'><b>testMoviesDisplayed</b><br>Test class: org.actualPages.PopularPageTest</td>
+<td></td>
+<td>3</td>
+<td>org.actualPages.PopularPageTest@6be968ce</td></tr>
+<tr>
+<td title='org.actualPages.HeaderSectionTest.testHeaderSectionUI()'><b>testHeaderSectionUI</b><br>Test class: org.actualPages.HeaderSectionTest</td>
+<td></td>
+<td>0</td>
+<td>org.actualPages.HeaderSectionTest@7188af83</td></tr>
+<tr>
+<td title='org.actualPages.AccountPageTest.testAccountPageUI()'><b>testAccountPageUI</b><br>Test class: org.actualPages.AccountPageTest</td>
+<td></td>
+<td>2</td>
+<td>org.actualPages.AccountPageTest@1033576a</td></tr>
+<tr>
+<td title='org.actualPages.MovieDetailsPageTest.testPopularPageOneMovie()'><b>testPopularPageOneMovie</b><br>Test class: org.actualPages.MovieDetailsPageTest</td>
+<td></td>
+<td>3</td>
+<td>org.actualPages.MovieDetailsPageTest@247310d0</td></tr>
+<tr>
+<td title='org.actualPages.HomePageTest.testHeadingsOfEachSection()'><b>testHeadingsOfEachSection</b><br>Test class: org.actualPages.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>org.actualPages.HomePageTest@59402b8f</td></tr>
+<tr>
+<td title='org.actualPages.LoginPageTest.testLoginWithEmptyInputs()'><b>testLoginWithEmptyInputs</b><br>Test class: org.actualPages.LoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>org.actualPages.LoginPageTest@cb0755b</td></tr>
+</table><p>
+</body>
+</html>
